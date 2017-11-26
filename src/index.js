@@ -1,4 +1,4 @@
-import syntax from 'babel-plugin-syntax-dynamic-import';
+import syntax from '@babel/plugin-syntax-dynamic-import';
 
 export default function ({ template, types: t }) {
   const buildImport = template(`
