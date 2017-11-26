@@ -1,6 +1,7 @@
 ## Unreleased
 
-## v2.0.0-beta.1
+## v2.0.0
+- [New] Beta status
 - [New] Babel 7 Support
 
 ## v1.2.0
