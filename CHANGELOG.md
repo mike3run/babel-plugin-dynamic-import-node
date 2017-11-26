@@ -1,5 +1,8 @@
 ## Unreleased
 
+## v2.0.1
+- [Refactor] Tweak readme to point to original repo
+
 ## v2.0.0
 - [New] Beta status
 - [New] Babel 7 Support
