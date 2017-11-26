@@ -1,5 +1,8 @@
 ## Unreleased
 
+# v2.0.0-beta.1
+- [New] Babel 7 Support
+
 ## v1.2.0
 - [New] support comments (#37)
 - [Refactor] Use template and types from the babel object (#32)
