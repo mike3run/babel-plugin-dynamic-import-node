@@ -1,4 +1,6 @@
 ## Unreleased
+## v2.0.2
+- [Update] Update dependencies
 
 ## v2.0.1
 - [Refactor] Tweak readme to point to original repo
