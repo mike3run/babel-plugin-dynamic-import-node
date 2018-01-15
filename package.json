@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-dynamic-import-node-babel-7",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Babel plugin to transpile import() to a deferred require(), for node",
   "main": "lib/index.js",
   "directories": {
@@ -10,6 +10,7 @@
     "clean": "rimraf lib",
     "prebuild": "npm run clean",
     "build": "babel src --out-dir lib",
+    "prepare": "npm run build",
     "pretest": "npm run lint",
     "test": "npm run tests-only",
     "tests-only": "mocha",

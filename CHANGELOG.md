@@ -1,4 +1,7 @@
 ## Unreleased
+## v2.0.3
+- [Update] Add prepare npm hook
+
 ## v2.0.2
 - [Update] Update dependencies
 
