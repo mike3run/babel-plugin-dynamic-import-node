@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/airbnb/babel-plugin-dynamic-import-node.git"
+    "url": "git+https://github.com/mike3run/babel-plugin-dynamic-import-node-babel-7.git"
   },
   "keywords": [
     "babel",
@@ -38,9 +38,9 @@
   "author": "Jordan Gensler <jordan.gensler@airbnb.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/airbnb/babel-plugin-dynamic-import-node/issues"
+    "url": "https://github.com/mike3run/babel-plugin-dynamic-import-node-babel-7/issues"
   },
-  "homepage": "https://github.com/airbnb/babel-plugin-dynamic-import-node#readme",
+  "homepage": "https://github.com/mike3run/babel-plugin-dynamic-import-node-babel-7#readme",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.37",
     "airbnb-js-shims": "^1.4.0",
