@@ -2,7 +2,8 @@
 
 ## FORK OF THE ORIGINAL TO TEST WITH BABEL 7
 
-If you're looking for the original one check on: [Github](https://github.com/airbnb/babel-plugin-dynamic-import-node)
+If you're looking for the original one, check on: [Github](https://github.com/airbnb/babel-plugin-dynamic-import-node)
+This fork was created to add support for Babel 7: [Github](https://github.com/mike3run/babel-plugin-dynamic-import-node-babel-7)
 
 Babel plugin to transpile `import()` to a deferred `require()`, for node. Matches the [proposed spec](https://github.com/domenic/proposal-import-function).
 
@@ -22,7 +23,7 @@ $ npm install babel-plugin-dynamic-import-node-babel-7 --save-dev
 
 ```json
 {
-  "plugins": ["dynamic-import-node"]
+  "plugins": ["dynamic-import-node-babel-7"]
 }
 ```
 
@@ -38,4 +39,18 @@ $ babel --plugins dynamic-import-node script.js
 require('babel-core').transform('code', {
   plugins: ['dynamic-import-node']
 });
+```
+
+### Code Example
+```javascript
+Promise.all([
+  import('./lib/import1'),
+  import('./lib/import2')
+ ]).then(([
+   Import1,
+   Import2
+  ]) => {
+   console.log(Import1);
+   /* CODE HERE*/
+  });
 ```
