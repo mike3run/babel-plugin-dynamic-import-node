@@ -1,4 +1,6 @@
 ## Unreleased
+## v2.0.5
+- [Update] Update dependencies
 ## v2.0.4
 - [Update] Update readme and dependencies
 
