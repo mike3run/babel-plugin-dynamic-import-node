@@ -1,4 +1,6 @@
 ## Unreleased
+## v2.0.7
+- [Update] Update dependencies to babel 42 beta
 ## v2.0.6
 - [Update] Update dependencies to babel 40 beta
 ## v2.0.5
