@@ -1,5 +1,9 @@
 # babel-plugin-dynamic-import-node
 
+## NOTE: THE ORIGINAL NOW SUPPORTS BABEL 7
+
+As of March 2019, [airbnb/babel-plugin-dynamic-import-node](https://github.com/airbnb/babel-plugin-dynamic-import-node) supports Babel 7 out-of-the-box, so you probably don't need to use this.
+
 ## FORK OF THE ORIGINAL TO TEST WITH BABEL 7
 
 If you're looking for the original one, check on: [Github](https://github.com/airbnb/babel-plugin-dynamic-import-node)
